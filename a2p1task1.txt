@@ -1,0 +1,236 @@
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sat Jun 30 01:17:46 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} touch a2p1task1.c
+{cslinux1:~} touch a2p1task2.c
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} rm a2p1task1.c
+rm: remove regular file ‘a2p1task1.c’? y
+{cslinux1:~} touch a2p1task1.c
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+a2p1task1.c: In function ‘main’:
+a2p1task1.c:34:4: error: expected ‘;’ before ‘rc’
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    ^
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+a2p1task1.c: In function ‘main’:
+a2p1task1.c:42:4: error: expected ‘;’ before ‘rc’
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    ^
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+a2p1task1.c: In function ‘main’:
+a2p1task1.c:42:4: error: expected ‘;’ before ‘rc’
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    ^
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} ls
+a2p1task1.c               case3.c    hello         my_aapl.xlsx   second
+a2p1task2.c               case4      hello.c       myname         short
+AAPL Stock Analysis.pptx  case4.c    ifthen        myname2        simple-cat
+abc.txt                   case5.c    Lab pictures  netbeans       simple-cat.c
+all                       cs3377     linkto        perl5          simple-ls
+apue.3e                   days       looper        PID.name       simple-ls.c
+case1                     dog        looper2       pizza          sqlite-files
+case1.c                   echomyvar  lscat         practicecopy1  src.3e.tar
+case2                     first      lscat.c       public_html    third
+case2.c                   first.bak  Mail          rohit2.txt     Week6Activity1
+case3                     general    make1         sample.txt
+{cslinux1:~} touch test.c
+{cslinux1:~} vim test.c
+{cslinux1:~} gcc test.c -l sqlite3
+test.c:1:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ nclude <stdio.h>
+        ^
+In file included from test.c:2:0:
+/usr/include/stdlib.h:139:1: error: unknown type name ‘size_t’
+ extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+ ^
+In file included from test.c:2:0:
+/usr/include/stdlib.h:331:4: error: unknown type name ‘size_t’
+    size_t __statelen) __THROW __nonnull ((2));
+    ^
+/usr/include/stdlib.h:361:4: error: unknown type name ‘size_t’
+    size_t __statelen,
+    ^
+/usr/include/stdlib.h:465:22: error: unknown type name ‘size_t’
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^
+/usr/include/stdlib.h:467:22: error: unknown type name ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                      ^
+/usr/include/stdlib.h:467:38: error: unknown type name ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                                      ^
+/usr/include/stdlib.h:479:36: error: unknown type name ‘size_t’
+ extern void *realloc (void *__ptr, size_t __size)
+                                    ^
+In file included from /usr/include/stdlib.h:491:0,
+                 from test.c:2:
+/usr/include/alloca.h:32:22: error: unknown type name ‘size_t’
+ extern void *alloca (size_t __size) __THROW;
+                      ^
+In file included from test.c:2:0:
+/usr/include/stdlib.h:497:22: error: unknown type name ‘size_t’
+ extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^
+/usr/include/stdlib.h:502:45: error: unknown type name ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                             ^
+/usr/include/stdlib.h:502:65: error: unknown type name ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                                                 ^
+/usr/include/stdlib.h:755:9: error: unknown type name ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+         ^
+/usr/include/stdlib.h:755:25: error: unknown type name ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                         ^
+/usr/include/stdlib.h:760:34: error: unknown type name ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                  ^
+/usr/include/stdlib.h:760:50: error: unknown type name ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                                  ^
+/usr/include/stdlib.h:839:6: error: unknown type name ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^
+/usr/include/stdlib.h:842:6: error: unknown type name ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^
+/usr/include/stdlib.h:846:31: error: unknown type name ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^
+/usr/include/stdlib.h:850:31: error: unknown type name ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^
+/usr/include/stdlib.h:859:36: error: unknown type name ‘size_t’
+ extern int mblen (const char *__s, size_t __n) __THROW __wur;
+                                    ^
+/usr/include/stdlib.h:863:34: error: unknown type name ‘size_t’
+      const char *__restrict __s, size_t __n) __THROW __wur;
+                                  ^
+/usr/include/stdlib.h:870:1: error: unknown type name ‘size_t’
+ extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+ ^
+/usr/include/stdlib.h:871:32: error: unknown type name ‘size_t’
+    const char *__restrict __s, size_t __n) __THROW;
+                                ^
+/usr/include/stdlib.h:873:1: error: unknown type name ‘size_t’
+ extern size_t wcstombs (char *__restrict __s,
+ ^
+/usr/include/stdlib.h:874:38: error: unknown type name ‘size_t’
+    const wchar_t *__restrict __pwcs, size_t __n)
+                                      ^
+test.c: In function ‘callback’:
+test.c:8:13: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
+             printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+             ^
+test.c:10:12: warning: incompatible implicit declaration of built-in function ‘print ’ [enabled by default]
+            printf("\n");
+            ^
+test.c: In function ‘main’:
+test.c:24:14: warning: incompatible implicit declaration of built-in function ‘fprintf’ [enabled by default]
+              fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+              ^
+test.c:24:22: error: ‘stderr’ undeclared (first use in this function)
+              fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+                      ^
+test.c:24:22: note: each undeclared identifier is reported only once for each function it appears in
+test.c:27:15: warning: incompatible implicit declaration of built-in function ‘fprintf’ [enabled by default]
+               fprintf(stdout, "Opened database successfully\n");
+               ^
+test.c:27:23: error: ‘stdout’ undeclared (first use in this function)
+               fprintf(stdout, "Opened database successfully\n");
+                       ^
+test.c:41:25: warning: incompatible implicit declaration of built-in function ‘fprintf’ [enabled by default]
+                         fprintf(stderr, "SQL error: %s\n", zErrMsg);
+                         ^
+test.c:44:26: warning: incompatible implicit declaration of built-in function ‘fprintf’ [enabled by default]
+                          fprintf(stdout, "Table created successfully\n");
+                          ^
+{cslinux1:~} vim test.c
+{cslinux1:~} gcc test.c -l sqlite3
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+a2p1task1.c: In function ‘main’:
+a2p1task1.c:42:4: error: expected ‘;’ before ‘rc’
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    ^
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+{cslinux1:~} ./a.out
+Opened database successfully
+SQL error: near ".": syntax error
+{cslinux1:~} vim a2p1task1.c
+{cslinux1:~} gcc a2p1task1.c -l sqlite3
+{cslinux1:~} ./a.out
+Opened database successfully
+SQL error: table pwtable already exists
+{cslinux1:~} ls
+a2p1task1.c               case3.c    hello.c       myname2        simple-cat
+a2p1task2.c               case4      ifthen        mypasswd.db    simple-cat.c
+AAPL Stock Analysis.pptx  case4.c    Lab pictures  netbeans       simple-ls
+abc.txt                   case5.c    linkto        perl5          simple-ls.c
+all                       cs3377     looper        PID.name       sqlite-files
+a.out                     days       looper2       pizza          src.3e.tar
+apue.3e                   dog        lscat         practicecopy1  test.c
+case1                     echomyvar  lscat.c       public_html    third
+case1.c                   first      Mail          rohit2.txt     Week6Activity1
+case2                     first.bak  make1         sample.txt
+case2.c                   general    my_aapl.xlsx  second
+case3                     hello      myname        short
+{cslinux1:~}

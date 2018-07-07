@@ -1,0 +1,864 @@
+login as: rks170430
+rks170430@cs1.utdallas.edu's password:
+     +----------------------------------------------------------
+     ¦                        • MobaXterm 10.5 •
+     ¦            (SSH client, X-server and networking tools)
+     ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu
+     ¦   • SSH compression : ?
+     ¦   • SSH-browser     : ?
+     ¦   • X11-forwarding  : ?  (remote display is forwarded thr
+     ¦   • DISPLAY         : ?  (automatically set on remote ser
+     ¦
+     ¦ ? For more info, ctrl+click on help or visit our website
+     +----------------------------------------------------------
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your I
+      this system will ban your IP address access for twenty-fou
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to th
+[[         All CS Graduate Students should use csgrads1.utdallas
+Last login: Sat Jun  9 13:33:59 2018 from rrcs-97-77-48-12.sw.bi
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1-
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose
+to complete homework assignments.  Computationally or resource i
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary fil
+            All files will be erased on a regular basis (Sunday
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+rks170430@cs1.utdallas.edu's password:
+     +----------------------------------------------------------
+     ¦                        • MobaXterm 10.5 •
+     ¦            (SSH client, X-server and networking tools)
+     ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu
+     ¦   • SSH compression : ?
+     ¦   • SSH-browser     : ?
+     ¦   • X11-forwarding  : ?  (remote display is forwarded thr
+     ¦   • DISPLAY         : ?  (automatically set on remote ser
+     ¦
+     ¦ ? For more info, ctrl+click on help or visit our website
+     +----------------------------------------------------------
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your I
+      this system will ban your IP address access for twenty-fou
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to th
+[[         All CS Graduate Students should use csgrads1.utdallas
+Last login: Sun Jun 10 11:03:58 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1-
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose
+to complete homework assignments.  Computationally or resource i
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary fil
+            All files will be erased on a regular basis (Sunday
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} pwd
+/home/011/r/rk/rks170430
+{cslinux1:~} mkdir a1part1
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ls -l a1part1
+ls: cannot access a1part1: No such file or directory
+{cslinux1:~/a1part1} cd
+{cslinux1:~} ls -l a1part1
+total 0
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ^C
+{cslinux1:~/a1part1} mkdir file1
+{cslinux1:~/a1part1} rmdir file1
+{cslinux1:~/a1part1} mkdir folder1
+{cslinux1:~/a1part1} mkdir folder2
+{cslinux1:~/a1part1} touch file3
+{cslinux1:~/a1part1} touch file4
+{cslinux1:~/a1part1} rm file4
+rm: remove regular empty file ‘file4’? y
+{cslinux1:~/a1part1} cd folder1
+{cslinux1:~/a1part1/folder1} touch file1
+{cslinux1:~/a1part1/folder1} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} cd folder2
+{cslinux1:~/a1part1/folder2} touch file2
+{cslinux1:~/a1part1/folder2}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+rks170430@cs1.utdallas.edu's password:
+     +----------------------------------------------------------
+     ¦                        • MobaXterm 10.5 •
+     ¦            (SSH client, X-server and networking tools)
+     ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu
+     ¦   • SSH compression : ?
+     ¦   • SSH-browser     : ?
+     ¦   • X11-forwarding  : ?  (remote display is forwarded thr
+     ¦   • DISPLAY         : ?  (automatically set on remote ser
+     ¦
+     ¦ ? For more info, ctrl+click on help or visit our website
+     +----------------------------------------------------------
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your I
+      this system will ban your IP address access for twenty-fou
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to th
+[[         All CS Graduate Students should use csgrads1.utdallas
+Last login: Sun Jun 10 11:13:51 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1-
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose
+to complete homework assignments.  Computationally or resource i
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary fil
+            All files will be erased on a regular basis (Sunday
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ls
+file3  folder1  folder2
+{cslinux1:~/a1part1}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+rks170430@cs1.utdallas.edu's password:
+     +----------------------------------------------------------
+     ¦                        • MobaXterm 10.5 •
+     ¦            (SSH client, X-server and networking tools)
+     ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu
+     ¦   • SSH compression : ?
+     ¦   • SSH-browser     : ?
+     ¦   • X11-forwarding  : ?  (remote display is forwarded thr
+     ¦   • DISPLAY         : ?  (automatically set on remote ser
+     ¦
+     ¦ ? For more info, ctrl+click on help or visit our website
+     +----------------------------------------------------------
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your I
+      this system will ban your IP address access for twenty-fou
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to th
+[[         All CS Graduate Students should use csgrads1.utdallas
+Last login: Sun Jun 10 13:20:11 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1-
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose
+to complete homework assignments.  Computationally or resource i
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary fil
+            All files will be erased on a regular basis (Sunday
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ls
+file3  folder1  folder2
+{cslinux1:~/a1part1}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+rks170430@cs1.utdallas.edu's password:
+     +----------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                      ¦
+     ¦            (SSH client, X-server and networking tools)         ¦
+     ¦                                                                ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu               ¦
+     ¦   • SSH compression : ?                                        ¦
+     ¦   • SSH-browser     : ?                                        ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded thr SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote ser      ¦
+     ¦                                                                ¦
+     ¦ ? For more info, ctrl+click on help or visit our website       ¦
+     +----------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your Idress,
+      this system will ban your IP address access for twenty-fou4) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to therver.]]
+[[         All CS Graduate Students should use csgrads1.utdallas      ]]
+Last login: Sun Jun 10 13:26:27 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1-
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purposeux system
+to complete homework assignments.  Computationally or resource isive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary fil
+            All files will be erased on a regular basis (Sunday ).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ln -s link1 file2
+{cslinux1:~/a1part1} ls
+file2  file3  folder1  folder2
+{cslinux1:~/a1part1} rm file3
+rm: remove regular empty file ‘file3’? rm
+{cslinux1:~/a1part1} ls
+file2  file3  folder1  folder2
+{cslinux1:~/a1part1} rm file3
+rm: remove regular empty file ‘file3’? y
+{cslinux1:~/a1part1} ls
+file2  folder1  folder2
+{cslinux1:~/a1part1} ln -s link 1 file2
+ln: target ‘file2’ is not a directory
+{cslinux1:~/a1part1} ln -s link1 file2
+ln: failed to create symbolic link ‘file2’: File exists
+{cslinux1:~/a1part1} ln -s link1 ~/a1part1/folder2/file2
+ln: failed to create symbolic link ‘/home/011/r/rk/rks170430/a1p/folder2/file2’: File exists
+{cslinux1:~/a1part1} cd folder2
+{cslinux1:~/a1part1/folder2} ls
+file2
+{cslinux1:~/a1part1/folder2} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} cd folder1
+{cslinux1:~/a1part1/folder1} ls
+file1
+{cslinux1:~/a1part1/folder1} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} touch file3
+{cslinux1:~/a1part1} ls
+file2  file3  folder1  folder2
+{cslinux1:~/a1part1} ^C
+{cslinux1:~/a1part1} ls -l > file3
+{cslinux1:~/a1part1} cat file3
+total 4
+lrwxrwxrwx  1 rks170430 sn 5 Jun 10 13:38 file2 -> link1
+-rw-------+ 1 rks170430 sn 0 Jun 10 13:44 file3
+drwx--x--x+ 2 rks170430 sn 3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn 3 Jun 10 11:25 folder2
+{cslinux1:~/a1part1} cd folder1
+{cslinux1:~/a1part1/folder1} ls -l > file1
+{cslinux1:~/a1part1/folder1} cat file1
+total 1
+-rw-------+ 1 rks170430 sn 0 Jun 10 13:45 file1
+{cslinux1:~/a1part1/folder1} cd folder2
+/home/011/r/rk/rks170430/a1part1/folder2
+{cslinux1:~/a1part1/folder2} ls -l > file2
+{cslinux1:~/a1part1/folder2} cat file2
+total 1
+-rw-------+ 1 rks170430 sn 0 Jun 10 13:45 file2
+{cslinux1:~/a1part1/folder2} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} cd file3
+-bash: cd: file3: Not a directory
+{cslinux1:~/a1part1} ls -l file3
+-rw-------+ 1 rks170430 sn 213 Jun 10 13:44 file3
+{cslinux1:~/a1part1} ls -l file3 > file3
+{cslinux1:~/a1part1} cat file3
+-rw-------+ 1 rks170430 sn 0 Jun 10 13:46 file3
+{cslinux1:~/a1part1} cd folder1
+{cslinux1:~/a1part1/folder1} chmod 0600 file1
+{cslinux1:~/a1part1/folder1} ls -l folder1
+ls: cannot access folder1: No such file or directory
+{cslinux1:~/a1part1/folder1} ls -l file1
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+{cslinux1:~/a1part1/folder1} cd folder2
+/home/011/r/rk/rks170430/a1part1/folder2
+{cslinux1:~/a1part1/folder2} chmod 0744 file2
+{cslinux1:~/a1part1/folder2} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} ls -l
+total 5
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+{cslinux1:~/a1part1} cd folder1
+{cslinux1:~/a1part1/folder1} ls -l
+total 1
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+{cslinux1:~/a1part1/folder1} cd folder2
+/home/011/r/rk/rks170430/a1part1/folder2
+{cslinux1:~/a1part1/folder2} ls -l
+total 1
+-rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+{cslinux1:~/a1part1/folder2} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} ls -l
+total 5
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+{cslinux1:~/a1part1} ls -lR
+.:
+total 5
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+
+./folder1:
+total 1
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+
+./folder2:
+total 1
+-rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+{cslinux1:~/a1part1} ls -lRi
+.:
+total 5
+7380067 lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link
+7380068 -rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+7379796 drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+7379797 drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+
+./folder1:
+total 1
+7379801 -rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+
+./folder2:
+total 1
+7379805 -rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+{cslinux1:~/a1part1} ls -lR --si
+.:
+total 4.7k
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+
+./folder1:
+total 1.1k
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+
+./folder2:
+total 1.1k
+-rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+{cslinux1:~/a1part1} ls -lR --sort=time
+.:
+total 5
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+
+./folder2:
+total 1
+-rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+
+./folder1:
+total 1
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+{cslinux1:~/a1part1} ls -lR --sort=size
+.:
+total 5
+-rw-------+ 1 rks170430 sn 48 Jun 10 13:46 file3
+lrwxrwxrwx  1 rks170430 sn  5 Jun 10 13:38 file2 -> link1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:23 folder1
+drwx--x--x+ 2 rks170430 sn  3 Jun 10 11:25 folder2
+
+./folder1:
+total 1
+-rw-------+ 1 rks170430 sn 56 Jun 10 13:45 file1
+
+./folder2:
+total 1
+-rwxr--r--+ 1 rks170430 sn 56 Jun 10 13:45 file2
+{cslinux1:~/a1part1} ls -R
+.:
+file2  file3  folder1  folder2
+
+./folder1:
+file1
+
+./folder2:
+file2
+{cslinux1:~/a1part1} ls -R > task6.txt
+{cslinux1:~/a1part1} cat task6.txt
+.:
+file2
+file3
+folder1
+folder2
+task6.txt
+
+./folder1:
+file1
+
+./folder2:
+file2
+{cslinux1:~/a1part1} mkdir cs3377
+{cslinux1:~/a1part1} cd cs3377
+{cslinux1:~/a1part1/cs3377} mv a1part1 cs3377
+mv: cannot stat ‘a1part1’: No such file or directory
+{cslinux1:~/a1part1/cs3377} rm cs3377
+rm: cannot remove ‘cs3377’: No such file or directory
+{cslinux1:~/a1part1/cs3377} rmdir cs3377
+rmdir: failed to remove ‘cs3377’: No such file or directory
+{cslinux1:~/a1part1/cs3377} cd a1part1
+/home/011/r/rk/rks170430/a1part1
+{cslinux1:~/a1part1} rmdir cs33777
+rmdir: failed to remove ‘cs33777’: No such file or directory
+{cslinux1:~/a1part1} rmdir cs3377
+{cslinux1:~/a1part1} cd
+{cslinux1:~} mkdir cs3377
+{cslinux1:~} mv cs3377 a1part1
+{cslinux1:~} cd a1part1
+{cslinux1:~/a1part1} ls
+cs3377  file2  file3  folder1  folder2  task6.txt
+{cslinux1:~/a1part1} rmdir cs3377
+{cslinux1:~/a1part1} cd
+{cslinux1:~} mkdir cs3377
+{cslinux1:~} mv a1part1 cs3377
+{cslinux1:~} cd cs3377
+{cslinux1:~/cs3377} ls
+a1part1
+{cslinux1:~/cs3377}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sun Jun 10 13:37:43 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+nkSourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} touch myScript.sh
+{cslinux1:~} chmod +x myScript.sh
+{cslinux1:~} vim myScript.sh
+{cslinux1:~} rm myScript.sh
+rm: remove regular file ‘myScript.sh’? y
+{cslinux1:~} cd cs3377
+{cslinux1:~/cs3377} ls
+a1part1
+{cslinux1:~/cs3377} touch myScript.sh
+{cslinux1:~/cs3377} chmod +x mySccript.sh
+chmod: cannot access ‘mySccript.sh’: No such file or directory
+{cslinux1:~/cs3377} chmod +x myScript.sh
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} cat myScript.sh
+#!/bin/sh
+mkdir a1part1
+cd a1part1
+mkdir dir1
+cd dir1
+touch dir1file1
+
+{cslinux1:~/cs3377}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sun Jun 10 15:34:58 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} cd cs3377
+{cslinux1:~/cs3377} ls
+a1part1  myScript.sh
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} rm -r a1part1
+rm: descend into directory ‘a1part1’? y
+rm: remove regular file ‘a1part1/file3’? y
+rm: remove regular file ‘a1part1/task6.txt’? n
+rm: remove symbolic link ‘a1part1/file2’? y
+rm: descend into directory ‘a1part1/folder1’? y
+rm: remove regular file ‘a1part1/folder1/file1’? y
+rm: remove directory ‘a1part1/folder1’? y
+rm: descend into directory ‘a1part1/folder2’? y
+rm: remove regular file ‘a1part1/folder2/file2’? y
+rm: remove directory ‘a1part1/folder2’? y
+rm: remove directory ‘a1part1’? y
+rm: cannot remove ‘a1part1’: Directory not empty
+{cslinux1:~/cs3377} ls a1part1
+task6.txt
+{cslinux1:~/cs3377} mv task6.txt cs3377
+mv: cannot stat ‘task6.txt’: No such file or directory
+{cslinux1:~/cs3377} mv ~/cs3377/a1part1/task6.txt ~/cs3377
+{cslinux1:~/cs3377} ls
+a1part1  myScript.sh  task6.txt
+{cslinux1:~/cs3377} rm -r a1part1
+rm: remove directory ‘a1part1’? y
+{cslinux1:~/cs3377} ls
+myScript.sh  task6.txt
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} ls -R a1part1
+ls: cannot access a1part1: No such file or directory
+{cslinux1:~/cs3377} ls -R a1part1 > task8.txt
+ls: cannot access a1part1: No such file or directory
+{cslinux1:~/cs3377} cat task8.txt
+{cslinux1:~/cs3377} mkdir a1part1
+{cslinux1:~/cs3377} cd a1part1
+{cslinux1:~/cs3377/a1part1} mkdir folder1
+{cslinux1:~/cs3377/a1part1} mkdir folder2
+{cslinux1:~/cs3377/a1part1} touch file3
+{cslinux1:~/cs3377/a1part1} cd cs3377
+/home/011/r/rk/rks170430/cs3377
+{cslinux1:~/cs3377} rm -r a1part1
+rm: descend into directory ‘a1part1’? y
+rm: remove directory ‘a1part1/folder2’? y
+rm: remove directory ‘a1part1/folder1’? y
+rm: remove regular empty file ‘a1part1/file3’? y
+rm: remove directory ‘a1part1’? y
+{cslinux1:~/cs3377} ls -R a1part1
+ls: cannot access a1part1: No such file or directory
+{cslinux1:~/cs3377} ls -R a1part1 > task8.txt
+ls: cannot access a1part1: No such file or directory
+{cslinux1:~/cs3377} myScript.sh
+bash: myScript.sh: command not found...
+{cslinux1:~/cs3377} ls -l myScript.sh
+-rwx--x--x+ 1 rks170430 sn 239 Jun 10 21:35 myScript.sh
+{cslinux1:~/cs3377} ./myScript.sh
+./myScript.sh: line 9: cd: a1part1: No such file or directory
+./myScript.sh: line 15: cd: a1part1: No such file or directory
+ln: failed to create symbolic link ‘file2’: File exists
+{cslinux1:~/cs3377} vim myScriptsh
+{cslinux1:~/cs3377} rm myScriptsh
+rm: cannot remove ‘myScriptsh’: No such file or directory
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} ./myScript.sh
+mkdir: cannot create directory ‘a1part1’: File exists
+mkdir: cannot create directory ‘folder1’: File exists
+./myScript.sh: line 9: cd: folder1: No such file or directory
+./myScript.sh: line 10: cd: a1part1: No such file or directory
+mkdir: cannot create directory ‘folder2’: File exists
+./myScript.sh: line 16: cd: folder2: No such file or directory
+./myScript.sh: line 17: cd: a1part1: No such file or directory
+ln: failed to create symbolic link ‘file2’: File exists
+{cslinux1:~/cs3377} ls
+a1part1  myScript.sh  task6.txt  task8.txt
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} rm -r a1part1
+rm: descend into directory ‘a1part1’? y
+rm: descend into directory ‘a1part1/folder1’? y
+rm: remove regular file ‘a1part1/folder1/file1’? y
+rm: descend into directory ‘a1part1/folder1/folder2’? y
+rm: remove regular file ‘a1part1/folder1/folder2/file2’? y
+rm: remove regular file ‘a1part1/folder1/folder2/file3’? y
+rm: remove directory ‘a1part1/folder1/folder2’? y
+rm: remove directory ‘a1part1/folder1’? y
+rm: remove directory ‘a1part1’? y
+{cslinux1:~/cs3377} ls
+myScript.sh  task6.txt  task8.txt
+{cslinux1:~/cs3377} mkdir a1part1
+{cslinux1:~/cs3377} cd a1part1
+{cslinux1:~/cs3377/a1part1} mkdir folder1
+{cslinux1:~/cs3377/a1part1} cd folder1
+{cslinux1:~/cs3377/a1part1/folder1} touch file1
+{cslinux1:~/cs3377/a1part1/folder1} ls -l > file1
+{cslinux1:~/cs3377/a1part1/folder1} chmod 0600 file1
+{cslinux1:~/cs3377/a1part1/folder1} cd folder1
+/home/011/r/rk/rks170430/cs3377/a1part1/folder1
+{cslinux1:~/cs3377/a1part1/folder1} cd a1part1
+-bash: cd: a1part1: No such file or directory
+{cslinux1:~/cs3377/a1part1/folder1} cd a1part1
+-bash: cd: a1part1: No such file or directory
+{cslinux1:~/cs3377/a1part1/folder1} cd ~/cs3377/a1part1
+{cslinux1:~/cs3377/a1part1} rm -r a1part1
+rm: cannot remove ‘a1part1’: No such file or directory
+{cslinux1:~/cs3377/a1part1} cd cs3377
+/home/011/r/rk/rks170430/cs3377
+{cslinux1:~/cs3377} rm -r a1part1
+rm: descend into directory ‘a1part1’? y
+rm: descend into directory ‘a1part1/folder1’? y
+rm: remove regular file ‘a1part1/folder1/file1’? y
+rm: remove directory ‘a1part1/folder1’? y
+rm: remove directory ‘a1part1’? y
+{cslinux1:~/cs3377} y
+bash: y: command not found...
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} ./myScript.sh
+{cslinux1:~/cs3377} vim myScript.sh
+{cslinux1:~/cs3377} ls -R
+.:
+a1part1  myScript.sh  task6.txt  task8.txt
+
+./a1part1:
+file2  file3  folder1  folder2
+
+./a1part1/folder1:
+file1
+
+./a1part1/folder2:
+file2
+{cslinux1:~/cs3377} ls -R > task9.txt
+{cslinux1:~/cs3377} cat task9.txt
+.:
+a1part1
+myScript.sh
+task6.txt
+task8.txt
+task9.txt
+
+./a1part1:
+file2
+file3
+folder1
+folder2
+
+./a1part1/folder1:
+file1
+
+./a1part1/folder2:
+file2
+{cslinux1:~/cs3377}
+----------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort

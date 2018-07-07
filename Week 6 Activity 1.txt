@@ -1,0 +1,384 @@
+login as: rks170430
+rks170430@cs2.utdallas.edu's password:
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux2.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux2:~} ls
+AAPL Stock Analysis.pptx  case4      hello         make1          rohit2.txt
+abc.txt                   case4.c    hello.c       my_aapl.xlsx   sample.txt
+all                       case5.c    ifthen        myname         second
+apue.3e                   cs3377     Lab pictures  myname2        short
+case1                     days       linkto        netbeans       simple-cat
+case1.c                   dog        looper        perl5          simple-cat.c
+case2                     echomyvar  looper2       PID.name       simple-ls
+case2.c                   first      lscat         pizza          simple-ls.c
+case3                     first.bak  lscat.c       practicecopy1  src.3e.tar
+case3.c                   general    Mail          public_html    third
+{cslinux2:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux2.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+Last login: Fri Jun 29 01:11:51 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux2:~} gcc simple-sh.c -o simple-sh
+gcc: error: simple-sh.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+{cslinux2:~} ls
+AAPL Stock Analysis.pptx  cs3377        looper2           practicecopy1
+abc.txt                   days          lscat             public_html
+all                       dog           lscat.c           rohit2.txt
+apue.3e                   echomyvar     Mail              sample.txt
+case1                     first         make1             second
+case1.c                   first.bak     my_aapl.xlsx      short
+case2                     general       myname            simple-cat
+case2.c                   hello         myname2           simple-cat.c
+case3                     hello.c       netbeans          simple-ls
+case3.c                   ifthen        # nice&times1(1)  simple-ls.c
+case4                     Lab pictures  perl5             src.3e.tar
+case4.c                   linkto        PID.name          third
+case5.c                   looper        pizza
+{cslinux2:~} cd Week6Activity1
+-bash: cd: Week6Activity1: No such file or directory
+{cslinux2:~} cd Week6 Activity1
+-bash: cd: Week6: No such file or directory
+{cslinux2:~} ls
+AAPL Stock Analysis.pptx  cs3377        looper2        public_html
+abc.txt                   days          lscat          rohit2.txt
+all                       dog           lscat.c        sample.txt
+apue.3e                   echomyvar     Mail           second
+case1                     first         make1          short
+case1.c                   first.bak     my_aapl.xlsx   simple-cat
+case2                     general       myname         simple-cat.c
+case2.c                   hello         myname2        simple-ls
+case3                     hello.c       netbeans       simple-ls.c
+case3.c                   ifthen        perl5          src.3e.tar
+case4                     Lab pictures  PID.name       third
+case4.c                   linkto        pizza          Week6 Activity1
+case5.c                   looper        practicecopy1
+{cslinux2:~} cd Week6Activity1
+{cslinux2:~/Week6Activity1} gcc simple-sh.c -o simple-sh
+{cslinux2:~/Week6Activity1} ./simple-sh
+SimpleShell: Enter command or exit % echo "hello world"
+hello world
+SimpleShell: Enter command or exit % exit
+{cslinux2:~/Week6Activity1} gcc nice.c -o nice
+/usr/tmp/ccJohudN.o: In function `main':
+nice.c:(.text+0x111): undefined reference to `err_sys'
+nice.c:(.text+0x181): undefined reference to `err_sys'
+nice.c:(.text+0x1f8): undefined reference to `err_quit'
+collect2: error: ld returned 1 exit status
+{cslinux2:~/Week6Activity1} gcc nice.c error.c -o nice
+{cslinux2:~/Week6Activity1} ./nice
+NZERO = 20
+current nice value in parent is 20
+current nice value in child is 20, adjusting by 0
+now child nice value is 20
+exit
+parent count = 322374467
+child count = 323029079
+{cslinux2:~/Week6Activity1} exit
+logout
+
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux2.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+Last login: Fri Jun 29 02:04:58 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+/*
+ * sh1.c: sample version 1 of a UNIX command shell/interpreter.
+ *
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+-------------------------------------------------------------------------------
+int main()
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session: Enter command or exit % ";
+    - Press S to save terminal output to file
+    /* spit out the prompt */
+Network error: Software caused connection abort
+
+    /* Try getting input. If error or EOF, exit */
+    while( fgets(line, sizeof line, stdin) != NULL )
+    {
+        /* fgets leaves '\n' in input buffer. ditch it */
+        line[strlen(line)-1] = '\0';
+
+    if(strcmp(line,"exit") == 0){
+        break;
+    } else {
+      system( line );
+    }
+
+        printf("%s", prompt );
+    }
+
+    return 0;
+}
+~
+~
+~
+~
+-- INSERT --                                                       8,3
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux2.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+Last login: Fri Jun 29 02:12:54 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux2:~} cd Week6Activity1
+{cslinux2:~/Week6Activity1} vim simple-sh.c
+{cslinux2:~/Week6Activity1} ls
+apue.h   makefile  nice.c    simple-sh    times1
+error.c  nice      prexit.c  simple-sh.c  times1.c
+{cslinux2:~/Week6Activity1} make
+gcc simple-sh.c -o simple-sh
+simple-sh.c: In function ‘main’:
+simple-sh.c:27:7: warning: incompatible implicit declaration of built-in functieclp’ [enabled by default]
+       execlp(line, NULL)
+       ^
+simple-sh.c:28:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+make: *** [simple-sh] Error 1
+{cslinux2:~/Week6Activity1} vim simple-sh.c
+{cslinux2:~/Week6Activity1} make
+gcc simple-sh.c -o simple-sh
+simple-sh.c: In function ‘main’:
+simple-sh.c:27:7: warning: incompatible implicit declaration of built-in functieclp’ [enabled by default]
+       execlp(line, NULL);
+       ^
+{cslinux2:~/Week6Activity1} cat simple-sh.c
+/*
+ * sh1.c: sample version 1 of a UNIX command shell/interpreter.
+ *
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char line[256];
+    char prompt[] = "SimpleShell: Enter command or exit % ";
+
+    /* spit out the prompt */
+    printf("%s", prompt );
+
+    /* Try getting input. If error or EOF, exit */
+    while( fgets(line, sizeof line, stdin) != NULL )
+    {
+        /* fgets leaves '\n' in input buffer. ditch it */
+        line[strlen(line)-1] = '\0';
+
+    if(strcmp(line,"exit") == 0){
+        break;
+    } else {
+      execlp(line, NULL);
+    }
+
+        printf("%s", prompt );
+    }
+
+    return 0;
+}
+{cslinux2:~/Week6Activity1} cat makeile
+cat: makeile: No such file or directory
+{cslinux2:~/Week6Activity1} catmakefile
+bash: catmakefile: command not found...
+{cslinux2:~/Week6Activity1} cat makefile
+simple-sh: simple-sh.c
+        gcc simple-sh.c -o simple-sh
+
+nice: nice.c error.c
+        gcc nice.c error.c -o nice
+
+times1: times1.c error.c prexit.c
+        gcc times1.c error.c prexit.c -o times1
+
+{cslinux2:~/Week6Activity1}

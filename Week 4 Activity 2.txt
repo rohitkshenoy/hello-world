@@ -1,0 +1,648 @@
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Mon Jun 11 01:51:56 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} ls
+AAPL Stock Analysis.pptx  days  first      general  hello.c       Mail
+cs3377                    dog   first.bak  hello    Lab pictures  my_aapl.xlsx
+{cslinux1:~} cat hello.c
+#include <stdio.h>
+int
+main(int argc, char **argv) {
+printf("Hello, World!\n");
+}
+
+{cslinux1:~} mkdir make1
+{cslinux1:~} cp hello.c
+cp: missing destination file operand after ‘hello.c’
+Try 'cp --help' for more information.
+{cslinux1:~} cp hello.c ~/mkdir
+{cslinux1:~} cat
+^C
+{cslinux1:~} ls
+AAPL Stock Analysis.pptx  first.bak     Mail          perl5          second
+cs3377                    general       make1         pizza          short
+days                      hello         mkdir         practicecopy1  third
+dog                       hello.c       my_aapl.xlsx  public_html
+first                     Lab pictures  netbeans      rohit2.txt
+{cslinux1:~} cd mkdir
+-bash: cd: mkdir: Not a directory
+{cslinux1:~} cp hello.c ~/make1
+{cslinux1:~} cd make1
+{cslinux1:~/make1} ls
+hello.c
+{cslinux1:~/make1} cd
+{cslinux1:~} ls
+AAPL Stock Analysis.pptx  first.bak     Mail          perl5          second
+cs3377                    general       make1         pizza          short
+days                      hello         mkdir         practicecopy1  third
+dog                       hello.c       my_aapl.xlsx  public_html
+first                     Lab pictures  netbeans      rohit2.txt
+{cslinux1:~} cd make1
+{cslinux1:~/make1} touch makefile
+{cslinux1:~/make1} vi makefile
+{cslinux1:~/make1} make
+gcc hello.c -o hello
+{cslinux1:~/make1} ls
+hello  hello.c  makefile
+{cslinux1:~/make1} ./hello
+Hello, World!
+{cslinux1:~/make1} vim all
+{cslinux1:~/make1} cat all
+#!/bin/bash
+#The program displays name, number, and list of positional parameters
+echo "This script was called by typing $0"
+echo "This program was called with $# arguments"
+echo "All arguments are $*"
+
+{cslinux1:~/make1} ./all
+-bash: ./all: Permission denied
+{cslinux1:~/make1} chmod +x all
+{cslinux1:~/make1} ./all
+This script was called by typing ./all
+This program was called with 0 arguments
+All arguments are
+{cslinux1:~/make1} ./all a
+This script was called by typing ./all
+This program was called with 1 arguments
+All arguments are a
+{cslinux1:~/make1} .all/ a b c d e
+-bash: .all/: No such file or directory
+{cslinux1:~/make1} ./all a b c d e
+This script was called by typing ./all
+This program was called with 5 arguments
+All arguments are a b c d e
+{cslinux1:~/make1} ls
+all  hello  hello.c  makefile
+{cslinux1:~/make1} mv all ~/
+{cslinux1:~/make1} cd
+{cslinux1:~} ls
+AAPL Stock Analysis.pptx  first      Lab pictures  netbeans       rohit2.txt
+all                       first.bak  Mail          perl5          second
+cs3377                    general    make1         pizza          short
+days                      hello      mkdir         practicecopy1  third
+dog                       hello.c    my_aapl.xlsx  public_html
+{cslinux1:~} ln -s linkto all
+ln: failed to create symbolic link ‘all’: File exists
+{cslinux1:~} ln -s all linkto
+{cslinux1:~} ./linkto
+This script was called by typing ./linkto
+This program was called with 0 arguments
+All arguments are
+{cslinux1:~} ./linkto a b
+This script was called by typing ./linkto
+This program was called with 2 arguments
+All arguments are a b
+{cslinux1:~} vim myname
+{cslinux1:~} cat myname
+#!/bin/bash
+#Displays hello and your name
+echo "Enter your name"
+read name
+echo "Hello $name"
+
+{cslinux1:~} ./myname
+-bash: ./myname: Permission denied
+{cslinux1:~} chmod +x myname
+{cslinux1:~} ./myname
+Enter your name
+rohit
+Hello rohit
+{cslinux1:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Fri Jun 15 21:05:00 2018 from rrcs-97-77-48-12.sw.biz.rr.com
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+#!/bin/bash
+#Displays hello and your name
+echo "Enter your name"
+read name
+echo "Hello $name"
+-------------------------------------------------------------------------------
+~
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+~
+Network error: Software caused connection abort
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                 5,7           All
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sat Jun 16 17:29:36 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} ls
+AAPL Stock Analysis.pptx  first.bak     Mail          netbeans       second
+all                       general       make1         perl5          short
+cs3377                    hello         mkdir         pizza          third
+days                      hello.c       my_aapl.xlsx  practicecopy1
+dog                       Lab pictures  myname        public_html
+first                     linkto        myname2       rohit2.txt
+{cslinux1:~} vim myname2
+{cslinux1:~} cat myname
+#!/bin/bash
+#Displays hello and your name
+echo "Enter your name"
+read name
+echo "Hello $name"
+
+{cslinux1:~} cat myname2
+#!/bin/bash
+#Displays hello and your name
+echo "Enter your name"
+read name
+echo "Hello $name"
+
+{cslinux1:~} vim myname2
+{cslinux1:~} ./myname2
+Enter your name
+rohit
+{cslinux1:~} cat PID.name
+rohit
+{cslinux1:~} vim looper
+{cslinux1:~} ./looper
+-bash: ./looper: Permission denied
+{cslinux1:~} chmod +x looper
+{cslinux1:~} ./looper
+{cslinux1:~} vim looper
+{cslinux1:~} ./looper rohit james john
+rohit
+james
+john
+{cslinux1:~} vim looper
+{cslinux1:~} cp looper looper2
+{cslinux1:~} vim looper2
+{cslinux1:~} cat looper
+#!/bin/bash
+for name
+do
+        echo "$name"
+done
+
+{cslinux1:~} cat looper2
+#!/bin/bash
+for name in rohit john james peter
+do
+        echo "$name"
+done
+echo "task complete"
+
+
+{cslinux1:~} ./looper2
+rohit
+john
+james
+peter
+task complete
+{cslinux1:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sat Jun 16 17:42:10 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} vim ifthen
+{cslinux1:~} ./ifthen
+-bash: ./ifthen: Permission denied
+{cslinux1:~} chmod +x ifthen
+{cslinux1:~} ./ifthen
+Enter a string
+I'm here
+./ifthen: line 4: if[-z ]: command not found
+./ifthen: line 5: syntax error near unexpected token `then'
+./ifthen: line 5: `     then'
+{cslinux1:~} vim ifthen
+{cslinux1:~} ./ifthen
+Enter a string
+i am here
+./ifthen: line 4: if[ == ]: command not found
+./ifthen: line 5: syntax error near unexpected token `then'
+./ifthen: line 5: `then'
+{cslinux1:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sat Jun 16 18:52:03 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} vim ifthen
+{cslinux1:~} ./ifthen
+Enter a string
+I'm here
+./ifthen: line 4: test: =: unary operator expected
+Your entered:
+{cslinux1:~} vim ifthen
+{cslinux1:~} ./ifthen
+Enter a string
+here
+./ifthen: line 4: test: ==: unary operator expected
+You entered:
+{cslinux1:~} vim ifthen
+{cslinux1:~} ./ifthen
+Enter a string
+i am here
+Where is your input
+{cslinux1:~} ./ifthen
+Enter a string
+
+Where is your input
+{cslinux1:~}
+-------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort
+login as: rks170430
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 10.5 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to rks170430@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+                        Department of Computer Science
+                        University of Texas at Dallas
+
+                Use of UTD Information Systems is subject to
+          the UTD Information Security and Acceptable Use Policy.
+
+  Pursuant to Texas Administrative Code 202:
+  (1) Unauthorized use is prohibited;
+  (2) Usage may be subject to security testing and monitoring;
+  (3) Misuse is subject to criminal prosecution; and
+  (4) No expectation of privacy except as otherwise provided by
+      applicable privacy laws.
+
+        If five (5) incorrect passwords are received from your IP address,
+      this system will ban your IP address access for twenty-four (24) hours.
+
+[[NOTE: If you are a CS Graduate Student, you cannot logon to this server.]]
+[[         All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+Last login: Sat Jun 16 19:09:56 2018 from 129.110.229.121
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - Linux/CentOS 7.3
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - Linux/CentOS 7.3
+                      cs2.utdallas.edu - Linux/CentOS 7.3
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+            All files will be erased on a regular basis (Sunday 0300).
+
+Sourcing /usr/local/etc/skel/global/profile
+{cslinux1:~} vim echomyvar
+{cslinux1:~} ./echomyvar
+-bash: ./echomyvar: Permission denied
+{cslinux1:~} chmod +x echomyvar
+{cslinux1:~} ./echomyvar
+The PID of this process is 5119
+The value of myvar is:
+{cslinux1:~}
